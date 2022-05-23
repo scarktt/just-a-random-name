@@ -1,0 +1,21 @@
+{
+  "name": "just-a-random-name",
+  "version": "1.0.0",
+  "description": "display random names",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "npm"
+  ],
+  "author": "Scarlett <@scarcoffee>",
+  "license": "MIT",
+  "bin": {
+      "random-msg": "./bin/global.js"
+  },
+  "preferGlobal": true
+}
